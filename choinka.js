@@ -1,4 +1,23 @@
-// pierwsza po mojemu
+// nowa
+
+function drawTree(pietra) {
+  
+  console.log(pietra);
+  for (i=0;i<pietra;i++) {
+    var star = " ";
+    for(j=0;j<=i;j++) {
+      star = star + "*";
+    }
+    console.log(star);
+  }
+}
+drawTree(5);
+drawTree(10);
+
+
+
+
+// stara
 
 for (i=0;i<=5;i++)
 {
@@ -8,16 +27,3 @@ document.write("*");
 }
 document.write("<br>");
 }
-
-// druga z "instrukcji"
-
-var drawTree(i) {
-for (i=1;i<=5;1++) {
-var star()
-}
-for (j=0;j<=1;j++) {
-var star(star += '*');
-}
-}
-console.log(star);
-
